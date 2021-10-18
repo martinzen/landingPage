@@ -35,12 +35,12 @@ body {
   color: #ff8ed7;
 }
 
-.hero-title{
+.hero-title {
   font-weight: 700;
   padding: 25px 214px;
 }
 
-p {
+.hero-description {
   padding: 10px;
   width: 29em;
 }
@@ -55,52 +55,98 @@ p {
   margin-right: auto;
 }
 
-.btn_body{
-    background-color: #ff52bf;
-    border: 1px solid #ff52bf;
-    font-size: 16px;
-    padding: 14px 35px;
-    border-radius: 50px;
-    text-align: center;
-    color: white;
-    margin: 20px 0px 120px 0px;
+.btn_body {
+  background-color: #ff52bf;
+  border: 1px solid #ff52bf;
+  font-size: 16px;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  margin: 20px 0px 120px 0px;
 }
 
-.a_body{
+.a_body {
   color: white;
   text-decoration: none;
 }
 
-.img_size{
- height:auto;
- width: 50%;
-} 
+.img_size {
+  height: auto;
+  width: 50%;
+}
 
-.diagram{
+.diagram {
   margin-top: 120px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  margin-left: 32%;  
+  /* margin-left: 32%; */
 }
 
-.h1_diagram{
-  font-size: 96px;
+.h1_diagram {
+  font-size: 60px;
 }
 
-.h1_mesages{
-  font-size: 96px;
+.h1_mesages {
+  font-size: 60px;
 }
-.p_mesages{
-  color:#808e9a;
-  font-size:24px;
-}
-
-.p_comunites{
-  color:#808e9a;
-  font-size:24px;
+.p_mesages {
+  color: #808e9a;
+  font-size: 24px;
 }
 
+.comunties {
+  padding-right: 19.7vw;
+}
+.p_comunites {
+  color: #808e9a;
+  font-size: 24px;
+}
+
+.img_gwTogether {
+  height: 31.3vw;
+  width: 41.42vw;
+}
+
+.top_together {
+  width: 100%;
+  margin-bottom: -6px;
+}
+.gw_together {
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 600px;
+  justify-content: center;
+  width: 100%;
+  /* padding: 0;
+  display: flex;
+  justify-content: space-around; */
+  background-color: #f5fbff;
+}
+
+.bottom_together {
+  width: 100%;
+}
+
+.section_together {
+  margin: 0;
+  padding: 0;
+}
+
+p.together {
+  padding: 2px;
+  width: 32em;
+  text-align: left;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.gw_togetherText {
+  padding-left: 10vw;
+  /* height: 54px; */
+  margin-top: 25vh;
+}
 /*
 
 .testClass{
