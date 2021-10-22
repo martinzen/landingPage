@@ -116,13 +116,14 @@ body {
 .gw_together {
   display: inline-flex;
   flex-wrap: wrap;
-  height: 600px;
+  /* height: 600px; */
   justify-content: center;
   width: 100%;
   /* padding: 0;
   display: flex;
   justify-content: space-around; */
   background-color: #f5fbff;
+  
 }
 
 .bottom_together {
@@ -149,7 +150,8 @@ p.together {
   /* margin-left: 7px; */
   /* margin-right: 8vh; */
   /* margin-left: -7vh; */
-  margin-right: 10%;
+  /* margin-right: 10%; */
+  padding-bottom: 20px;
   
 }
 /*
@@ -160,3 +162,14 @@ p.together {
 }
 
 */
+.section_flowingConversation {
+  margin-top: 150px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 7vw;
+}
+
+.gw_flowingConversation {
+  max-width: 28vw;
+  margin-left: 11vw;
+}
